@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	<meta charset="UTF-8">
+	<title>Game</title>
+	<link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+
+    <body OnLoad="refresh();">
+<p align="right"><span id="timer"></span></p>
+
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// выставляем секунды
+var sec=30;
+// выставляем минуты
+var min=00;
+
+function refresh()
+{
+  sec--;
+  if(sec==-01){sec=59; min=min-1;}
+  else{min=min;}
+  if(sec<=9){sec="0" + sec;}
+  time=(min<=9 ? "0" + min : min) + ":" + sec;
+  if(document.getElementById){timer.innerHTML=time;}
+  inter=setTimeout("refresh()", 1000);
+  // действие, если таймер 00:00
+  // в данном случае переход на страницу http://www.net-f.ru/
+  if(min=='00' && sec=='00'){sec="00"; clearInterval(inter); window.location='2index.html';}
+}
+//-->
+</script>
+
+   	  <div id="gameName" style="gameName">Угадай Niggy</div>
+       <p class="fig"><img src="Game/waka_flocka.jpg" ></p>
+      <canvas widyh="500" height="50"></canvas>
+
+
+      <a href="#x" class="overlay" id="win2"></a>
+   <div class="popup">
+    <a href="1index.html">
+    <img src="Game/good.png" class="fig">
+    <canvas widyh="500" height="30"></canvas>
+    </a>
+    <p style="text-align: center;">
+        <a href="1index.html" class="button">Далее</a>
+      </p>
+      <p><canvas widyh="500" height="10"></canvas></p>
+    <a class="close"title="" href="#close"></a>
+    </div>
+
+<a href="#x" class="overlay" id="win1"></a>
+
+    <div class="popup">
+    <a href="index.html">
+    <img src="Game/nogood.png" class="fig">
+    <canvas widyh="500" height="30"></canvas>
+    </a>
+    <p style="text-align: center;">
+        <a href="index.html" class="button">В начало</a>
+      </p>
+      <p><canvas widyh="500" height="10"></canvas></p>
+    <a class="close"title="" href="#close"></a>
+    </div>
+
+
+
+         <div><p >
+              <a href="2index.html" class="button28">2Pas</a>
+              <a id="div"class="button27" href="2index.html">Wiz Khalifa</a>
+              <a id="div"class="button26" href="2index.html">Tyga  </a>
+            </p>
+         </div>   
+         <canvas widyh="500" height="40"></canvas>
+         <div><p > 
+              <a id="div"class="button25" href="2index.html">Ice cobe</a>
+              <a id="div"class="button24" href="#win2">Waka Flocka</a>
+              <a id="div"class="button26" href="2index.html">Eminem</a>
+            </p>
+         </div>             
+  </style>
+   </body>
+</html>
+

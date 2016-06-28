@@ -1,0 +1,365 @@
+body
+{
+	background: #333;
+}
+
+.button {
+   border: 1px solid #0a3c59;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   padding: 20px 40px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #06426c;
+   font-size: 24px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
+   }
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+   }
+
+.button28 {
+
+   border-top: 1px solid #000000;
+   background: #acbac4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#525252), to(#acbac4));
+   background: -webkit-linear-gradient(top, #525252, #acbac4);
+   background: -moz-linear-gradient(top, #525252, #acbac4);
+   background: -ms-linear-gradient(top, #525252, #acbac4);
+   background: -o-linear-gradient(top, #525252, #acbac4);
+   padding: 20px 40px;
+   margin-left: 660px;
+   -webkit-border-radius: 16px;
+   -moz-border-radius: 16px;
+   border-radius: 16px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 24px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button28:hover {
+   border-top-color: #b5bbbf;
+   background: #b5bbbf;
+   color: #ffffff;
+   }
+.button28:active {
+   border-top-color: #424242;
+   background: #424242;
+   }
+
+   .button27 {
+
+   border-top: 1px solid #000000;
+   background: #acbac4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#525252), to(#acbac4));
+   background: -webkit-linear-gradient(top, #525252, #acbac4);
+   background: -moz-linear-gradient(top, #525252, #acbac4);
+   background: -ms-linear-gradient(top, #525252, #acbac4);
+   background: -o-linear-gradient(top, #525252, #acbac4);
+   padding: 20px 40px;
+   margin-left: 60px;
+   -webkit-border-radius: 16px;
+   -moz-border-radius: 16px;
+   border-radius: 16px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 24px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button27:hover {
+   border-top-color: #b5bbbf;
+   background: #b5bbbf;
+   color: #ffffff;
+   }
+.button27:active {
+   border-top-color: #424242;
+   background: #424242;
+   }
+
+   .button26 {
+
+   border-top: 1px solid #000000;
+   background: #acbac4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#525252), to(#acbac4));
+   background: -webkit-linear-gradient(top, #525252, #acbac4);
+   background: -moz-linear-gradient(top, #525252, #acbac4);
+   background: -ms-linear-gradient(top, #525252, #acbac4);
+   background: -o-linear-gradient(top, #525252, #acbac4);
+   padding: 20px 40px;
+   margin-left: 60px;
+   -webkit-border-radius: 16px;
+   -moz-border-radius: 16px;
+   border-radius: 16px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 24px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button26:hover {
+   border-top-color: #b5bbbf;
+   background: #b5bbbf;
+   color: #ffffff;
+   }
+.button26:active {
+   border-top-color: #424242;
+   background: #424242;
+   }
+
+   .button25 {
+
+   border-top: 1px solid #000000;
+   background: #acbac4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#525252), to(#acbac4));
+   background: -webkit-linear-gradient(top, #525252, #acbac4);
+   background: -moz-linear-gradient(top, #525252, #acbac4);
+   background: -ms-linear-gradient(top, #525252, #acbac4);
+   background: -o-linear-gradient(top, #525252, #acbac4);
+   padding: 20px 40px;
+   margin-left: 633px;
+   -webkit-border-radius: 16px;
+   -moz-border-radius: 16px;
+   border-radius: 16px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 24px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button25:hover {
+   border-top-color: #b5bbbf;
+   background: #b5bbbf;
+   color: #ffffff;
+   }
+.button25:active {
+   border-top-color: #424242;
+   background: #424242;
+   }
+
+   .button24 {
+
+   border-top: 1px solid #000000;
+   background: #acbac4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#525252), to(#acbac4));
+   background: -webkit-linear-gradient(top, #525252, #acbac4);
+   background: -moz-linear-gradient(top, #525252, #acbac4);
+   background: -ms-linear-gradient(top, #525252, #acbac4);
+   background: -o-linear-gradient(top, #525252, #acbac4);
+   padding: 20px 40px;
+   margin-left: 56px;
+   -webkit-border-radius: 16px;
+   -moz-border-radius: 16px;
+   border-radius: 16px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 24px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button24:hover {
+   border-top-color: #b5bbbf;
+   background: #b5bbbf;
+   color: #ffffff;
+   }
+.button24:active {
+   border-top-color: #424242;
+   background: #424242;
+   }
+
+#gameName
+{
+	color: #fff;
+
+	font-family: courier;
+	font-weight: bold;
+	font-size: 70px;
+	text-align: center;
+
+}
+
+#nigga
+{
+   margin-left: 110px;
+}
+
+.fig {
+    text-align: center; /* Выравнивание по центру */ 
+   }
+
+
+
+   /* Базовые стили слоя затемнения и модального окна  */
+.overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+/* фон затемнения */
+    background-color: rgba(0, 0, 0, 0.65);
+    position: fixed; /* фиксированное поцизионирование */
+    cursor: default; /* тип курсара */
+}
+/* активируем слой затемнения */
+.overlay:target {
+    display: block;
+}
+/* стили модального окна */
+.popup {
+    top: -100%;
+    right: 0;
+    left: 50%;
+    font-size: 14px;
+    z-index: 20;
+    margin: 0;
+    width: 85%;
+    min-width: 320px;
+    max-width: 600px;
+/* фиксированное позиционирование, окно стабильно при прокрутке */
+    position: fixed;
+    padding: 15px;
+    border: 1px solid #383838;
+    background: #fefefe;
+    background: #333;
+/* скругление углов */
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    font: 14px/18px 'Tahoma', Arial, sans-serif;
+/* внешняя тень */
+    -webkit-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+    -ms-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+    box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+    -webkit-transform: translate(-50%, -500%);
+    -ms-transform: translate(-50%, -500%);
+    -o-transform: translate(-50%, -500%);
+    transform: translate(-50%, -500%);
+    -webkit-transition: -webkit-transform 0.6s ease-out;
+    -moz-transition: -moz-transform 0.6s ease-out;
+    -o-transition: -o-transform 0.6s ease-out;
+    transition: transform 0.6s ease-out;
+}
+/* активируем модальный блок */
+.overlay:target+.popup {
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    top: 20%;
+}
+/* изображения внутри окна */
+.popup img {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    margin-left: 93px;
+}
+/* миниатюры слева/справа */
+.pic-left, 
+.pic-right {
+    width: 25%;
+    height: auto;
+}
+.pic-left {
+    float: left;
+    margin: 5px 15px 5px 0;
+}
+.pic-right {
+    float: right;
+    margin: 5px 0 5px 15px;
+}
+/* элементы м-медиа, фреймы */
+.popup embed, 
+.popup iframe {
+    top: 0;
+    right: 0;
+    bottom: 0; 
+    left: 0; 
+    display:block;
+    margin: auto;
+    min-width: 320px;
+    max-width: 600px;
+    width: 100%;
+}
+.popup h2 { /* заголовок 2 */
+    margin: 0;
+    color: #008000;
+    padding: 5px 0px 10px;
+    text-align: left;
+    text-shadow: 1px 1px 3px #adadad;
+    font-weight: 500;
+    font-size: 1.4em;
+    font-family: 'Tahoma', Arial, sans-serif;
+    line-height: 1.3;
+}
+/* параграфы */
+.popup p {margin: 0; padding: 5px 0}
+
+
+
+#timer
+{
+display:inline;
+font:52pt "Kashmir","Open Sans Condensed",Arial,Verdana,sans-serif;
+color: #E0E0E0;
+}
+
+
